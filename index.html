@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Churrascômetro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="./imagens/logo.png" type="image/png" rel="icon">
+</head>
+
+<body>
+    <div id="container">
+
+        <h1 class="titulo">Churrascômetro</h1>
+        <div class="pergunta">
+            <h3 class="sub-titulo">Adultos</h3>
+            <input id="adultos" name="adultos"  class="text-input" type="number" placeholder="Adultos">
+        </div>
+        <div class="pergunta">
+            <h3 class="sub-titulo">Crianças</h3>
+            <input id="criancas" name="criancas"  class="text-input" type="number" placeholder="Crianças">
+        </div>
+        <div class="pergunta">
+            <h3 class="sub-titulo">Duração</h3>
+            <input id="duracao" name="duracao"  class="text-input" type="number" placeholder="Duração (h)">
+        </div>
+
+        <div class="calcular">
+            <button id="calcular" onclick="calcular()">Calcular</button>
+        </div>
+
+        <div id="resultado">
+           
+        
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>

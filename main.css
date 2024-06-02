@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    border-radius: 20px;
+    border: 1px white solid;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.text-input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: black;
+    border: 1px white solid;
+}
+
+input{
+    color: white;
+}
+
+.pergunta{
+    margin-top: 20px;
+    width: 100%;
+}
+
+#calcular{
+    width: 100%;
+    margin-top: 30px;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    border: 3px aqua solid;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+}
+
+#calcular:hover{
+    border: 3px aqua solid;
+    background-color:aqua;
+    color: rgb(0, 0, 0);
+}
+
+.imagem{
+    width: 40px;
+}
+
+#comida ,#alcool,#bebidas{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+#resultado{
+    display: none;
+}
